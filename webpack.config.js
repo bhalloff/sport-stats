@@ -21,7 +21,7 @@ module.exports = {
 		publicPath: 'http://localhost:3000/dist'
 	},
 	externals: {
-		'cheerio': 'window',
+		cheerio: 'window',
 		'react/lib/ExecutionEnvironment': true,
 		'react/lib/ReactContext': true
 	},

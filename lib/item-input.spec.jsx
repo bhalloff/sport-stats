@@ -15,5 +15,5 @@ describe('<ItemInput />', () => {
 	});
 	it('should have placeholder text', () => {
 		expect(component.find('input').prop('placeholder')).to.equal('What needs to be done?');
-	})
+	});
 });

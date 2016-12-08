@@ -3,8 +3,8 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import { describe, it, beforeEach } from 'mocha';
 
-import Index from './index.jsx';
-import Home from './home.jsx';
+import Index from './index';
+import Home from './home';
 
 describe('<Index />', () => {
 	let component;
@@ -15,6 +15,6 @@ describe('<Index />', () => {
 		expect(component).to.have.length(1);
 	});
 	it('should render home component with base route', () => {
-		expect(component.contains(<Home />)).to.equal(true)
+		expect(component.contains(<Home />)).to.equal(true);
 	});
 });

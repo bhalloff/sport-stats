@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import { describe, it, beforeEach } from 'mocha';
 
-import Home from './home.jsx';
+import Home from './home';
 
 describe('<Home />', () => {
 	let component;
