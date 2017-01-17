@@ -1,24 +1,34 @@
 import React from 'react';
 
-function Home() {
+const scoreShape = React.PropTypes.shape({
+	name: React.PropTypes.string.isRequired,
+	score: React.PropTypes.string.isRequired
+}).isRequired;
+
+function ScoreBoard(props) {
+	const { home, visitor } = props;
 	return (
 		<div>
 			<dl>
 				<dt>
-					Home
+					{home.name}
 				</dt>
 				<dd>
-					10
+					{home.score}
 				</dd>
 				<dt>
-					Visitor
+					{visitor.name}
 				</dt>
 				<dd>
-					12
+					{visitor.score}
 				</dd>
 			</dl>
 		</div>
 	);
 }
+ScoreBoard.propTypes = {
+	home: scoreShape,
+	visitor: scoreShape
+};
 
-export default Home;
+export default ScoreBoard;

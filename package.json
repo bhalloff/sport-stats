@@ -6,8 +6,10 @@
     "test": "test"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "reflux": "^6.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -24,6 +26,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0",
     "jsdom": "^9.8.3",
+    "json-loader": "^0.5.4",
     "mocha": "^3.1.2",
     "react-addons-test-utils": "^15.3.2",
     "webpack": "^1.14.0",

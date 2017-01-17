@@ -1,0 +1,73 @@
+{
+   "event":{
+      "eventId":337679,
+      "eventType":1496,
+      "teamPossession":"",
+      "timeLeft":"00:00",
+      "period":"2"
+   },
+   "teams":{
+      "team1":{
+         "name":"Wheelock College",
+         "player":[
+            {
+               "uni":"04",
+               "name":"Derek Fournier"
+            },
+            {
+               "uni":"11",
+               "name":"Brandon Collier"
+            },
+            {
+               "uni":"12",
+               "name":"Devin Brown"
+            },
+            {
+               "uni":"13",
+               "name":"Nicholas Fenton"
+            },
+            {
+               "uni":"15",
+               "name":"Anthony Williams"
+            }
+         ],
+         "bonus":"",
+         "fouls":0,
+         "id":"WCMB1617",
+         "record":"6-7 , 3-1 NECC",
+         "score":"80",
+         "teamColor":"AAAAAA"
+      },
+      "team2":{
+         "name":"Southern Vermont",
+         "player":[
+            {
+               "uni":"00",
+               "name":"Goldsmith, Nate"
+            },
+            {
+               "uni":"03",
+               "name":"Taylor, Rayshawn"
+            },
+            {
+               "uni":"05",
+               "name":"Placella, Nick"
+            },
+            {
+               "uni":"10",
+               "name":"Cook, Ervin"
+            },
+            {
+               "uni":"25",
+               "name":"Borders, Josh"
+            }
+         ],
+         "bonus":"",
+         "fouls":0,
+         "id":"SVCM",
+         "record":"4-9 , 2-2 NECC",
+         "score":"90",
+         "teamColor":"28701A"
+      }
+   }
+}

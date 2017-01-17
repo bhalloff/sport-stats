@@ -11,7 +11,7 @@ function App() {
 try {
 	ReactDOM.render(<Home />, global.document.getElementById('root'));
 } catch (e) {
-	console.log('Cannot render component to document.');
+	console.error('Cannot render component to document:', e);
 }
 
 export default App;

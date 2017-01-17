@@ -20,9 +20,9 @@ describe('<ScoreBoard />', () => {
 		expect(component.find('dt').last().text()).to.equal('Visitor');
 	});
 	it('should display home team score', () => {
-		expect(component.find('dd').first().text()).to.equal('10');
+		expect(component.find('dd').first().text()).to.equal('80');
 	});
 	it('should display visitor team name', () => {
-		expect(component.find('dd').last().text()).to.equal('12');
+		expect(component.find('dd').last().text()).to.equal('90');
 	});
 });

@@ -5,6 +5,7 @@ import { describe, it, beforeEach } from 'mocha';
 
 import Home from './home';
 import ScoreBoard from './scoreboard';
+import SummaryStore from './service-summary.store';
 
 describe('<Home />', () => {
 	let component;
